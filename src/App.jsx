@@ -1,6 +1,6 @@
 
 import './App.css'
-import { FaInstagram, FaFacebookF, FaLinkedinIn, FaHome, FaPhoneAlt, FaServer} from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaLinkedinIn, FaHome, FaPhoneAlt, FaServer, FaGithub} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Element, Link} from "react-scroll"
 import { IoPersonSharp, IoDocumentTextOutline } from "react-icons/io5";
@@ -242,12 +242,70 @@ function App() {
 
         </Element>
 
-      <Element name="works" className="h-screen text-white text-3xl">
+      <Element name="works" className="h-[235vh] ">
         <div className="pl-1.5">
         <div className="border-b-blue-400 border-white text-[30px] inline-block border-4 pb-2.5 font-bold mb-9 text-black">
           WORKS
         </div>
 
+<div className="text-[18px]">As a frontend developer, I craft intuitive, responsive, and visually appealing web interfaces that focus on user experience and performance. Below are some of the projects I've worked on — each one a step forward in mastering modern web technologies like React, Tailwind CSS, and JavaScript.</div>
+
+        <div className="flex py-12">
+
+        <div className="w-1/2 relative bg-black/60 h-[17rem]">
+        <div className="bg-black/20 h-full w-full z-30 absolute top-3 left-3 hidden"></div>
+        <a href='https://theme-change-gaming-website.vercel.app/'><img src='/src/assets/poject1.png' className='relative top-3 left-3 h-[17rem] z-20'></img></a>
+        
+        </div>
+
+        <div className="w-1/2 pl-5 flex flex-col justify-center">
+        <div className="text-2xl font-bold mb-4">
+        Theme change (Gaming website).
+        </div>
+        <div className="text-[16px]">
+        This website allows users to seamlessly switch between multiple visual or color themes enhancing personalization and accessibility. It provides engaging and dynamic user experience by adapting interface to user preferences, making gameplay visually appealing
+        </div>
+        </div>
+
+        </div>
+
+        <div className="flex py-12 ">
+
+        <div className="w-1/2 pr-5 flex flex-col justify-center">
+        <div className="text-2xl font-bold mb-4">
+          Dewi
+        </div>
+        <div className="text-[16px]">
+          I created a visually appealing landing page using front-end technologies, focusing on clean design and user-friendly navigation. The page includes interactive elements and optimized layouts to enhance user engagement and provide a seamless browsing experience.
+        </div>
+        </div>
+
+        <div className="w-1/2 bg-black/40 h-[17rem]">
+        <a href='https://dewi-fawn.vercel.app/'><img src='/src/assets/dewi.png' className='relative top-3 right-3 h-[17rem]'></img></a>
+        </div>
+          
+        </div>
+
+        <div className="flex py-12">
+
+        <div className="w-1/2 bg-black/40 h-[17rem]">
+        <a href='https://coming-soon-page-9xc80nq1q-tushars-projects-2794de62.vercel.app//'><img src='/src/assets/coming-soon.png' className='relative top-3 left-3 h-[17rem]'></img></a>
+        </div>
+
+        <div className="w-1/2 pl-5 flex flex-col justify-center">
+        <div className="text-2xl font-bold mb-4">
+          Coming Soon Page
+        </div>
+        <div className="text-[16px]">
+          This is a coming soon Landing Page for a website made using html, CSS and bootstap. This is a responsive website for all devices.
+        </div>
+        </div>
+
+        </div>
+
+      <div className="text-3xl font-bold flex items-center justify-center mt-10">
+        More: <FaGithub/>
+      </div>
 
         </div>
       </Element>
