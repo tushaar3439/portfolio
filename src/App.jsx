@@ -5,6 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { Element, Link} from "react-scroll"
 import { IoPersonSharp, IoDocumentTextOutline } from "react-icons/io5";
 import { MdOutlineWorkOutline } from "react-icons/md";
+import { AiOutlineMail } from "react-icons/ai";
 
 import { useInView } from 'react-intersection-observer';
 
@@ -84,7 +85,7 @@ function App() {
         <div className="bg-black/50 h-full w-full ">
         
         <div className=" h-[100vh] flex justify-center flex-col px-3">
-        <div className="text-yellow-400">
+        <div className="text-yellow-400 font-mono">
           HELLO WORLD!
         </div>
         <div className="text-white text-[65px] font-bold">
@@ -219,7 +220,7 @@ function App() {
       </Element>
 
       <Element name="resume" className="h-[130vh] px-1.5">
-        <div ref={ref} className={`transition duration-700 ease-in-out ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} border-b-blue-400 border-white text-[30px] inline-block border-4 pb-2.5 font-bold mb-[60px]`}>Resume</div>
+        <div ref={ref} className={`transition duration-700 ease-in-out ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} border-b-blue-400 border-white text-[30px] inline-block border-4 pb-2.5 font-bold mb-[2rem]`}>Resume</div>
         <div  ref={ref}
       className={`transition duration-700 ease-in-out text-[18px] ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
         <b>"Design is intelligence made visible."</b> As a Front-End Developer, I bridge the gap between creative design and functional code—crafting seamless, responsive, and intuitive interfaces using HTML, CSS, JavaScript, and React. I believe a great user experience isn’t just built — it’s engineered with purpose and precision.</div>
@@ -313,10 +314,74 @@ function App() {
   SERVICES SECTION
 </Element>
 
-      <Element name="contact" className="h-screen flex items-center justify-center text-3xl">Contact</Element>
+      <Element name="contact" className="h-screen">
+        <div className="px-1.5">
+        <div className="border-b-blue-400 border-white text-[30px] inline-block border-4 pb-2.5 font-bold mb-9 text-black">
+          Contact
+        </div>
+        <div className="flex justify-evenly">
+        <div className="w-4/12">
+        <div class="shadow-md shadow-gray-500/50 p-6 bg-white rounded-md">
+
+        <div className="flex items-center gap-5 mb-4">
+        <div className="rounded-full h-[50px] w-[50px] text-[25px] text-blue-400 flex justify-center items-center bg-blue-100"><AiOutlineMail/></div>
+        <div className="">
+        <div className="text-2xl font-bold">Email Us</div>
+        <div className="">tuusshhar@gmail.com</div>
+        </div>
+        </div>
+
+        <div className="flex items-center gap-5 mb-4">
+        <div className="rounded-full h-[50px] w-[50px] text-[25px] text-blue-400 flex justify-center items-center bg-blue-100"><FaInstagram/></div>
+        <div className="">
+        <div className="text-2xl font-bold">Instagram Id</div>
+        <div className="">tushaar._</div>
+        </div>
+        </div>
+
+        <div className="flex items-center gap-5 mb-4">
+        <div className="rounded-full h-[50px] w-[50px] text-[25px] text-blue-400 flex justify-center items-center bg-blue-100"><FaLinkedinIn/></div>
+        <div className="">
+        <div className="text-2xl font-bold">Linked In</div>
+        <div className="">tushaar._</div>
+        </div>
+        </div>
+
+        </div>
+        </div>
+        
+        <div className="w-7/12">
+        <div class="shadow-md shadow-gray-500/50 p-6 bg-white rounded-md">
+        <div className="flex">
+        <div className="w-1/2">
+        <div className="">Your Name</div>
+        <input type="text" className=" p-2 border border-gray-300 rounded-md mb-4" placeholder="Enter your name" />
+        </div>
+        <div className="w-1/2">
+        <div className="">Your Email</div>
+        <input type="email" className=" p-2 border border-gray-300 rounded-md mb-4" placeholder="Enter your email" />
+        </div>
+        </div>
+        <div className="">Subject</div>
+        <input type="text" className=" p-2 border border-gray-300 rounded-md mb-4 w-full" placeholder="Enter subject" />
+        <div className="">Message</div>
+        <textarea className=" p-2 border border-gray-300 rounded-md mb-4 w-full h-[150px]" placeholder="Enter your message"></textarea>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors">
+          Send Message
+        </button>
+        </div>
+        </div>
+        
+
+
+
+        </div>
+
+
+        </div>
+      </Element>
       
     
-
 
 
         
