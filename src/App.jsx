@@ -1,11 +1,15 @@
 
 import './App.css'
-import { FaInstagram, FaFacebookF, FaLinkedinIn, FaHome, FaPhoneAlt, FaServer, FaGithub} from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaLinkedinIn, FaHome, FaPhoneAlt, FaServer, FaGithub, FaLaptopCode} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Element, Link} from "react-scroll"
 import { IoPersonSharp, IoDocumentTextOutline } from "react-icons/io5";
-import { MdOutlineWorkOutline } from "react-icons/md";
+import { MdOutlineWorkOutline, MdDesignServices } from "react-icons/md";
 import { AiOutlineMail } from "react-icons/ai";
+import { PiFilmSlate } from "react-icons/pi";
+import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { HiMiniDevicePhoneMobile } from "react-icons/hi2";
+import { GrHostMaintenance } from "react-icons/gr";
 
 import { useInView } from 'react-intersection-observer';
 
@@ -30,7 +34,7 @@ function App() {
  <div className="flex">
       {/* Left scrollable section */}
       <div className="w-3/12 overflow-y-scroll h-screen bg-[#040b14] p-2 flex flex-col items-center">
-        <div className="h-[130px] w-[130px] rounded-full bg-gray-900 flex items-center justify-center mt-[30px]">
+        <div className=" h-[130px] w-[130px] rounded-full bg-gray-900 flex items-center justify-center m-[30px]">
          <img src='/src/assets/profile2.jpg' alt="Profile" className="rounded-full h-[100px] w-[100px]" />
         </div>
         <div className="text-center text-white m-5 text-[30px] font-bold font-sans">
@@ -50,23 +54,25 @@ function App() {
            <FaLinkedinIn/>
           </div>
         </div>
-        <div className="flex">
-          <div className="mt-8.5 space-y-4 text-white/50 flex flex-col text-[18px] gap-y-8 mr-1.5">
+
+        
+        <div className="flex justify-start w-full px-4 gap-2 mb-8.5">
+          <div className="mt-8.5 space-y-4 text-white/80 flex flex-col text-[20px] gap-y-8 mr-1.5">
           <FaHome className='text-[20px]'/>
           <IoPersonSharp/>
           <MdOutlineWorkOutline/>
-          <IoDocumentTextOutline/>
+          <IoDocumentTextOutline className='text-[20px]'/>
           <FaServer/>
-          <FaPhoneAlt/>
+          <FaPhoneAlt className='text-[18px]'/>
 
           </div>
         <nav className="flex flex-col  mt-8 space-y-9">
-          <Link to='home' smooth={true} duration={500} containerId='main-scroll' className='text-white/50 flex items-center gap-2 text-[20px] hover:text-white cursor-pointer'>HOME</Link>
-          <Link to='about' smooth={true} duration={500} containerId='main-scroll' className='text-white/50 flex items-center gap-2 text-[20px] hover:text-white cursor-pointer'>ABOUT</Link>
-          <Link to='resume' smooth={true} duration={500} containerId='main-scroll' className='text-white/50 flex items-center gap-2 text-[20px] hover:text-white cursor-pointer'>RESUME</Link>
-          <Link to='works' smooth={true} duration={500} containerId='main-scroll' className='text-white/50 flex items-center gap-2 text-[20px] hover:text-white cursor-pointer'>WORKS</Link>
-          <Link to='services' smooth={true} duration={500} containerId='main-scroll' className='text-white/50 flex items-center gap-2 text-[20px] cursor-pointer hover:text-blue-500 transition-colors'>SERVICES</Link>
-          <Link to='contact' smooth={true} duration={500} containerId='main-scroll' className='text-white/50 flex items-center gap-2 text-[20px] hover:text-white cursor-pointer'>CONTACT</Link>
+          <Link to='home' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] hover:text-white cursor-pointer'>HOME</Link>
+          <Link to='about' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] hover:text-white cursor-pointer'>ABOUT</Link>
+          <Link to='resume' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] hover:text-white cursor-pointer'>RESUME</Link>
+          <Link to='works' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] hover:text-white cursor-pointer'>WORKS</Link>
+          <Link to='services' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] cursor-pointer hover:text-blue-500 transition-colors'>SERVICES</Link>
+          <Link to='contact' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] hover:text-white cursor-pointer'>CONTACT</Link>
         </nav>
         </div>
 
@@ -310,8 +316,92 @@ function App() {
 
         </div>
       </Element>
-      <Element name="services" className="h-screen flex items-center justify-center text-3xl text-black">
-  SERVICES SECTION
+      <Element name="services" className="h-screen ">
+   
+        <div className="border-b-blue-400 border-white text-[30px] inline-block border-4 pb-2.5 font-bold mb-9 text-black mx-3">
+          Services
+        </div>
+
+        <div className="text-[18px] mb-6 mx-3">
+          <b>"Turning ideas into interactive, pixel-perfect experiences."</b>
+
+As a frontend developer, I craft modern, responsive, and user-friendly interfaces that not only look stunning but also perform flawlessly. From design to deployment, I focus on creating digital experiences that are fast, accessible, and engaging.
+        </div>
+
+        <div className="justify-evenly grid grid-cols-3 gap-4 bg-blue-200 px-3 ">
+
+          <div className="flex gap-3 my-6">
+            <div className="mt-2">
+              <div className="rounded-full h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center"><HiMiniDevicePhoneMobile/></div>
+              </div>
+            <div className="">
+              <div className="text-[20px] font-bold mb-2">Responsive Design </div>
+              <div className="">Ensuring your site looks and works beautifully across all devices</div>
+            </div>
+          </div>
+
+          <div className="flex gap-3 my-6">
+            <div className="mt-2">
+              <div className="rounded-full h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center"><PiFilmSlate/></div>
+              </div>
+            <div className="">
+              <div className="text-[20px] font-bold mb-2">Interactive Animations </div>
+              <div className="">Adding smooth, engaging animations for that extra wow factor.</div>
+            </div>
+          </div>
+
+          <div className="flex gap-3 my-6">
+            <div className="mt-2">
+              <div className="rounded-full h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center"><HiOutlineDesktopComputer/></div>
+              </div>
+            <div className="">
+              <div className="text-[20px] font-bold mb-2">UI/UX Implementation</div>
+              <div className="">Translating designs into intuitive, interactive interfaces.
+              </div>
+            </div>
+          </div>
+
+          <div className="flex gap-3 my-6">
+            <div className="mt-2">
+              <div className="rounded-full h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center"><FaLaptopCode/></div>
+              </div>
+            <div className="">
+              <div className="text-[20px] font-bold mb-2">Custom Website Development</div>
+              <div className="">Bringing your unique brand vision to life with clean, maintainable code.
+              </div>
+            </div>
+          </div>
+
+          <div className="flex gap-3 my-6">
+            <div className="mt-2">
+              <div className="rounded-full h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center"><MdDesignServices/></div>
+              </div>
+            <div className="">
+              <div className="text-[20px] font-bold mb-2">Website Redesign & Revamp</div>
+              <div className="">Giving your existing site a fresh, modern look and improved functionality.
+              </div>
+            </div>
+          </div>
+
+          <div className="flex gap-3 my-6">
+            <div className="mt-2">
+              <div className="rounded-full h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center"><GrHostMaintenance/></div>
+              </div>
+            <div className="">
+              <div className="text-[20px] font-bold mb-2">Maintenance & Support</div>
+              <div className="">Keeping your website up-to-date, secure, and running smoothly with ongoing support.
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+
+
+
+
+
+        
 </Element>
 
       <Element name="contact" className="h-screen">
