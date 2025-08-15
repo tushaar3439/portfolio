@@ -11,6 +11,8 @@ import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { HiMiniDevicePhoneMobile } from "react-icons/hi2";
 import { GrHostMaintenance } from "react-icons/gr";
 
+import image from './assets/profile2.jpg';
+
 import { useInView } from 'react-intersection-observer';
 
 
