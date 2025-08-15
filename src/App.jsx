@@ -37,7 +37,7 @@ function App() {
       {/* Left scrollable section */}
       <div className="w-3/12 overflow-y-scroll h-screen bg-[#040b14] p-2 flex flex-col items-center">
         <div className=" h-[130px] w-[130px] rounded-full bg-gray-900 flex items-center justify-center m-[30px]">
-         <img src='/src/assets/profile2.jpg' alt="Profile" className="rounded-full h-[100px] w-[100px]" />
+         <img src='/profile2.jpg' alt="Profile" className="rounded-full h-[100px] w-[100px]" />
         </div>
         <div className="text-center text-white m-5 text-[30px] font-bold font-sans">
           Tushar Gurjar
@@ -149,19 +149,19 @@ function App() {
             <div className="w-1/2 ">
               <ul className=" mt-4 list-inside text-[18px] space-y-4">
                 <li className='flex space-x-2'>
-                  <img src='/src/assets/Blue-Dot-PNG-File.png' className='h-6 pt-1'></img>
+                  <img src='/Blue-Dot-PNG-File.png' className='h-6 pt-1'></img>
                   <b>Degree</b> <p>Btech CS (AI&DS)</p>
                 </li>
                 <li className='flex space-x-2'>
-                  <img src='/src/assets/Blue-Dot-PNG-File.png' className='h-6 pt-1'></img>
+                  <img src='/Blue-Dot-PNG-File.png' className='h-6 pt-1'></img>
                   <b>Country:</b> <p>India</p>
                 </li>
                 <li className='flex space-x-2'>
-                  <img src='/src/assets/Blue-Dot-PNG-File.png' className='h-6 pt-1'></img>
+                  <img src='/Blue-Dot-PNG-File.png' className='h-6 pt-1'></img>
                   <b>City:</b> <p>Jaipur</p>
                 </li>
                 <li className='flex space-x-2'>
-                  <img src='/src/assets/Blue-Dot-PNG-File.png' className='h-6 pt-1'></img>
+                  <img src='/Blue-Dot-PNG-File.png' className='h-6 pt-1'></img>
                   <b>Email:</b> <p>tuusshhar@gmail.com</p>
                 </li>
               </ul>
@@ -181,19 +181,19 @@ function App() {
              <div className="w-1/2 ">
               <ul className=" mt-4 list-inside text-[24px] space-y-4 font-serif pl-1.5 ">
                 <li className='flex space-x-2'>
-                  <img src='/src/assets/html.png' className='h-[35px] pt-1'></img>
+                  <img src='/html.png' className='h-[35px] pt-1'></img>
                   HTML
                 </li>
                 <li className='flex space-x-2'>
-                  <img src='/src/assets/css.png' className='h-[35px] pt-1'></img>
+                  <img src='/css.png' className='h-[35px] pt-1'></img>
                   CSS
                 </li>
                 <li className='flex space-x-2 relative right-1.5'>
-                  <img src='/src/assets/JavaScript.png' className='h-[25px] pt-1'></img>
+                  <img src='/JavaScript.png' className='h-[25px] pt-1'></img>
                   JavaScript
                 </li>
                 <li className='flex space-x-2'>
-                  <img src='/src/assets/bootstrap.png' className='h-[25px] pt-1'></img>
+                  <img src='/bootstrap.png' className='h-[25px] pt-1'></img>
                   Bootstrap
                 </li>
               </ul>
@@ -202,19 +202,19 @@ function App() {
             <div className="w-1/2 ">
               <ul className=" mt-4 list-inside text-[24px] space-y-4 font-serif ">
                 <li className='flex space-x-2'>
-                  <img src='/src/assets/tailwind.png' className='h-[30px] pt-1'></img>
+                  <img src='/tailwind.png' className='h-[30px] pt-1'></img>
                   Tailwind CSS
                 </li>
                 <li className='flex space-x-2'>
-                  <img src='/src/assets/React.png' className='h-[35px] pt-1'></img>
+                  <img src='/React.png' className='h-[35px] pt-1'></img>
                   React
                 </li>
                 <li className='flex space-x-2'>
-                  <img src='/src/assets/list-bullet.png' className='h-6 pt-1'></img>
+                  <img src='/list-bullet.png' className='h-6 pt-1'></img>
                   Social Adaptability
                 </li>
                 <li className='flex space-x-2'>
-                  <img src='/src/assets/list-bullet.png' className='h-6 pt-1'></img>
+                  <img src='/list-bullet.png' className='h-6 pt-1'></img>
                   Communication Skills
                 </li>
               </ul>
@@ -307,7 +307,7 @@ function App() {
 
         <div className="w-1/2 relative bg-black/60 h-[17rem]">
         <div className="bg-black/20 h-full w-full z-30 absolute top-3 left-3 hidden"></div>
-        <a href='https://theme-change-gaming-website.vercel.app/'><img src='/src/assets/poject1.png' className='relative top-3 left-3 h-[17rem] z-20'></img></a>
+        <a href='https://theme-change-gaming-website.vercel.app/'><img src='/poject1.png' className='relative top-3 left-3 h-[17rem] z-20'></img></a>
         
         </div>
 
@@ -334,7 +334,7 @@ function App() {
         </div>
 
         <div className="w-1/2 bg-black/40 h-[17rem]">
-        <a href='https://dewi-fawn.vercel.app/'><img src='/src/assets/dewi.png' className='relative top-3 right-3 h-[17rem]'></img></a>
+        <a href='https://dewi-fawn.vercel.app/'><img src='/dewi.png' className='relative top-3 right-3 h-[17rem]'></img></a>
         </div>
           
         </div>
@@ -342,7 +342,7 @@ function App() {
         <div className="flex py-12">
 
         <div className="w-1/2 bg-black/40 h-[17rem]">
-        <a href='https://coming-soon-page-9xc80nq1q-tushars-projects-2794de62.vercel.app//'><img src='/src/assets/coming-soon.png' className='relative top-3 left-3 h-[17rem]'></img></a>
+        <a href='https://coming-soon-page-9xc80nq1q-tushars-projects-2794de62.vercel.app//'><img src='/coming-soon.png' className='relative top-3 left-3 h-[17rem]'></img></a>
         </div>
 
         <div className="w-1/2 pl-5 flex flex-col justify-center">
