@@ -126,19 +126,19 @@ function App() {
             <div className="w-1/2 ">
               <ul className=" mt-4 list-inside text-[18px] space-y-4">
                 <li className='flex space-x-2'>
-                  <img src='/src/assets/Blue-Dot-PNG-File.png' className='h-6 pt-1'></img>
+                  <img src='/Blue-Dot-PNG-File.png' className='h-6 pt-1'></img>
                   <b>Name:</b> <p>Tushar Gurjar</p>
                 </li>
                 <li className='flex space-x-2'>
-                  <img src='/src/assets/Blue-Dot-PNG-File.png' className='h-6 pt-1'></img>
+                  <img src='/Blue-Dot-PNG-File.png' className='h-6 pt-1'></img>
                   <b>Birthday:</b> <p>09 march 2006</p>
                 </li>
                 <li className='flex space-x-2'>
-                  <img src='/src/assets/Blue-Dot-PNG-File.png' className='h-6 pt-1'></img>
+                  <img src='/Blue-Dot-PNG-File.png' className='h-6 pt-1'></img>
                   <b>Age:</b> <p>19</p>
                 </li>
                 <li className='flex space-x-2'>
-                  <img src='/src/assets/Blue-Dot-PNG-File.png' className='h-6 pt-1'></img>
+                  <img src='/Blue-Dot-PNG-File.png' className='h-6 pt-1'></img>
                   <b>Phone:</b> <p>+91 8739824632</p>
                 </li>
               </ul>
