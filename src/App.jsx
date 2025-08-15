@@ -225,27 +225,71 @@ function App() {
         </div>
       </Element>
 
-      <Element name="resume" className="h-[130vh] px-1.5">
+      <Element name="resume" className="h-[150vh] px-1.5">
         <div ref={ref} className={`transition duration-700 ease-in-out ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} border-b-blue-400 border-white text-[30px] inline-block border-4 pb-2.5 font-bold mb-[2rem]`}>Resume</div>
         <div  ref={ref}
       className={`transition duration-700 ease-in-out text-[18px] ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
         <b>"Design is intelligence made visible."</b> As a Front-End Developer, I bridge the gap between creative design and functional code—crafting seamless, responsive, and intuitive interfaces using HTML, CSS, JavaScript, and React. I believe a great user experience isn’t just built — it’s engineered with purpose and precision.</div>
-        <div className="text-[28px] font-bold mt-14 mb-6">Education</div>
+        <div className="text-[28px] font-bold mt-8 mb-6">Education</div>
 
-        <div className="w-1/2">
+        <div className="grid grid-cols-2 gap-4 mb-8">
+
+        
         <div className="flex">
         <div className="">
-        <div className="h-[15px] w-[15px] border-2 border-blue-400 rounded-full"></div>
-        <div className="h-[400px] w-0.5 bg-blue-400 relative left-1.5"></div>
+        <div className="h-[15px] w-[15px] border-2 border-blue-400 rounded-full bg-white"></div>
+        <div className="h-[280px] w-0.5 bg-blue-400 relative left-1.5"></div>
+        <div className="h-[15px] w-[15px] border-2 border-blue-400 rounded-full bg-white"></div>
+        <div className="h-[260px] w-0.5 bg-blue-400 relative left-1.5"></div>
         </div>
+        <div className="">
         <div className="relative top-[-10px] text-[24px] text-black/50 left-1.5">10<sup>th</sup> Standard</div>
+        <div className="text-[20px] font-bold px-1.5">kendriya vidyalaya no-2, Jaipur</div>
+        <div className="font-bold py-2 px-3 " >2020-2021</div>
+        
+        <div className="px-1.5 mb-5">I successfully completed my Secondary School Education (Class 10) with a strong academic foundation, gaining essential knowledge in Mathematics, Science, Social Studies, and Languages. This stage helped me develop analytical thinking, discipline, and problem-solving skills, along with building a habit of consistent learning that I carry forward in my personal and professional growth.</div>
+        
+        <div className="relative top-[-10px] text-[24px] text-black/50 left-1.5">12<sup>th</sup> Standard</div>
+        <div className="text-[20px] font-bold px-1.5">kendriya vidyalaya no-2, Jaipur</div>
+        <div className="font-bold py-2 px-3 " >2022-2023</div>
+
+        <div className="px-1.5">I completed my Higher Secondary Education (Class 12) in the Science stream with Physics, Chemistry, and Mathematics (PCM) as my core subjects, securing an overall score of 87%. This academic journey strengthened my logical thinking, problem-solving skills, and analytical mindset, while also building a strong foundation for my technical and programming interests.</div>
+        
         </div>
+
+        
+
+        </div>
+
+        <div className="flex">
+        
+        <div className="">
+        <div className="h-[15px] w-[15px] border-2 border-blue-400 rounded-full bg-white"></div>
+        <div className="h-[280px] w-0.5 bg-blue-400 relative left-1.5"></div>
+        </div>
+
+        <div className="">
+        <div className="relative top-[-10px] text-[24px] text-black/50 left-1.5">B.Tech in Computer Science(AI&DS)</div>
+        <div className="text-[20px] font-bold px-1.5">
+          Poornima University, Jaipur
+        </div>
+
+        <div className="font-bold py-2 px-3 " >2023-Present</div>
+
+        <div className="px-1.5 mb-5">I am currently pursuing a B.Tech in Computer Science with a specialization in Artificial Intelligence and Data Science at Poornima University, Jaipur. This program is equipping me with advanced knowledge in AI, machine learning, data analytics, and software development, preparing me for a dynamic career in technology.</div>
+
+
+        </div>
+
+
+
         </div>
 
 
 
 
 
+        </div>
 
         </Element>
 
@@ -471,9 +515,15 @@ As a frontend developer, I craft modern, responsive, and user-friendly interface
         </div>
       </Element>
       
-    
-
-
+    <div className="bg-blue-200 py-2 border-t-[2px] border-black/30 ">
+      <div className="text-center text-gray-700 mt-8">
+        © 2024 Tushar Gurjar. All rights reserved.
+      </div>
+      <div className="text-center text-gray-700 mt-2 mb-4">
+        Made using React & Tailwind CSS
+        </div>
+      
+    </div>
         
            
         </div>
