@@ -43,16 +43,20 @@ function App() {
         </div>
         <div className="flex gap-5 mb-2.5">
           <div className="rounded-full h-[50px] bg-gray-900 w-[50px] mt-[15px] text-white text-[20px] flex items-center justify-center">
-           <FaXTwitter/>
+            <a href='https://twitter.com/tushaar090306' target='_blank'><FaXTwitter/></a>
+           
           </div>
           <div className="rounded-full h-[50px] bg-gray-900 w-[50px] mt-[15px] text-white text-[20px] flex items-center justify-center">
-           <FaFacebookF/>
+            <a href='https://www.facebook.com/tushaar.gurjar.7' target='_blank'><FaFacebookF/></a>
+           
           </div>
           <div className="rounded-full h-[50px] bg-gray-900 w-[50px] mt-[15px] text-white text-[20px] flex items-center justify-center">
-           <FaInstagram/>
+            <a href='https://instagram.com/tushaar._' target='_blank'><FaInstagram/></a>
+           
           </div>
           <div className="rounded-full h-[50px] bg-gray-900 w-[50px] mt-[15px] text-white text-[20px] flex items-center justify-center">
-           <FaLinkedinIn/>
+            <a href='https://www.linkedin.com/in/tushar-gurjar-b4a381368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='_blank'><FaLinkedinIn/></a>
+           
           </div>
         </div>
 
@@ -356,7 +360,7 @@ function App() {
         </div>
 
       <div className="text-3xl font-bold flex items-center justify-center mt-10">
-        More: <FaGithub/>
+        More: <a href='https://github.com/tushaar3439' target='_blank'><FaGithub/></a> 
       </div>
 
         </div>
@@ -368,9 +372,8 @@ function App() {
         </div>
 
         <div className="text-[18px] mb-6 mx-3">
-          <b>"Turning ideas into interactive, pixel-perfect experiences."</b>
-
-As a frontend developer, I craft modern, responsive, and user-friendly interfaces that not only look stunning but also perform flawlessly. From design to deployment, I focus on creating digital experiences that are fast, accessible, and engaging.
+          <b>"Turning ideas into interactive, pixel-perfect experiences." </b>
+        As a frontend developer, I craft modern, responsive, and user-friendly interfaces that not only look stunning but also perform flawlessly. From design to deployment, I focus on creating digital experiences that are fast, accessible, and engaging.
         </div>
 
         <div className="justify-evenly grid grid-cols-3 gap-4 bg-blue-200 px-3 ">
@@ -459,7 +462,7 @@ As a frontend developer, I craft modern, responsive, and user-friendly interface
         <div class="shadow-md shadow-gray-500/50 p-6 bg-white rounded-md">
 
         <div className="flex items-center gap-5 mb-4">
-        <div className="rounded-full h-[50px] w-[50px] text-[25px] text-blue-400 flex justify-center items-center bg-blue-100"><AiOutlineMail/></div>
+        <div className="rounded-full h-[50px] w-[50px] text-[25px] text-blue-400 flex justify-center items-center bg-blue-100"><a href='mailto: tuusshhar@gmail.com' target='_blank'><AiOutlineMail/></a> </div>
         <div className="">
         <div className="text-2xl font-bold">Email Us</div>
         <div className="">tuusshhar@gmail.com</div>
@@ -467,7 +470,7 @@ As a frontend developer, I craft modern, responsive, and user-friendly interface
         </div>
 
         <div className="flex items-center gap-5 mb-4">
-        <div className="rounded-full h-[50px] w-[50px] text-[25px] text-blue-400 flex justify-center items-center bg-blue-100"><FaInstagram/></div>
+        <div className="rounded-full h-[50px] w-[50px] text-[25px] text-blue-400 flex justify-center items-center bg-blue-100"><a href='https://www.instagram.com/tushaar._' target='_blank'><FaInstagram/></a> </div>
         <div className="">
         <div className="text-2xl font-bold">Instagram Id</div>
         <div className="">tushaar._</div>
@@ -475,10 +478,10 @@ As a frontend developer, I craft modern, responsive, and user-friendly interface
         </div>
 
         <div className="flex items-center gap-5 mb-4">
-        <div className="rounded-full h-[50px] w-[50px] text-[25px] text-blue-400 flex justify-center items-center bg-blue-100"><FaLinkedinIn/></div>
+        <div className="rounded-full h-[50px] w-[50px] text-[25px] text-blue-400 flex justify-center items-center bg-blue-100"><a href='https://www.linkedin.com/in/tushar-gurjar-b4a381368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ' target='_blank'><FaLinkedinIn/></a> </div>
         <div className="">
         <div className="text-2xl font-bold">Linked In</div>
-        <div className="">tushaar._</div>
+        
         </div>
         </div>
 
