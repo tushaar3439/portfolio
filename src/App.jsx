@@ -1,14 +1,14 @@
 
 import './App.css'
 import { FaInstagram, FaFacebookF, FaLinkedinIn, FaHome, FaPhoneAlt, FaServer, FaGithub, FaLaptopCode} from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter, FaLink } from "react-icons/fa6";
 import { Element, Link} from "react-scroll"
 import { IoPersonSharp, IoDocumentTextOutline } from "react-icons/io5";
 import { MdOutlineWorkOutline, MdDesignServices } from "react-icons/md";
 import { AiOutlineMail } from "react-icons/ai";
 import { PiFilmSlate } from "react-icons/pi";
 import { HiOutlineDesktopComputer } from "react-icons/hi";
-import { HiMiniDevicePhoneMobile } from "react-icons/hi2";
+import { HiMiniDevicePhoneMobile, HiMagnifyingGlassPlus } from "react-icons/hi2";
 import { GrHostMaintenance } from "react-icons/gr";
 
 
@@ -42,19 +42,19 @@ function App() {
           Tushar Gurjar
         </div>
         <div className="flex gap-5 mb-2.5">
-          <div className="rounded-full h-[50px] bg-gray-900 w-[50px] mt-[15px] text-white text-[20px] flex items-center justify-center">
+          <div className="rounded-full h-[50px] bg-gray-900 w-[50px] mt-[15px] text-white text-[20px] flex items-center justify-center hover:text-yellow-500 hover:scale-110 transition-transform ">
             <a href='https://twitter.com/tushaar090306' target='_blank'><FaXTwitter/></a>
            
           </div>
-          <div className="rounded-full h-[50px] bg-gray-900 w-[50px] mt-[15px] text-white text-[20px] flex items-center justify-center">
+          <div className="rounded-full h-[50px] bg-gray-900 w-[50px] mt-[15px] text-white text-[20px] flex items-center justify-center hover:text-yellow-500 hover:scale-110 transition-transform ">
             <a href='https://www.facebook.com/tushaar.gurjar.7' target='_blank'><FaFacebookF/></a>
            
           </div>
-          <div className="rounded-full h-[50px] bg-gray-900 w-[50px] mt-[15px] text-white text-[20px] flex items-center justify-center">
+          <div className="rounded-full h-[50px] bg-gray-900 w-[50px] mt-[15px] text-white text-[20px] flex items-center justify-center hover:text-yellow-500 hover:scale-110 transition-transform ">
             <a href='https://instagram.com/tushaar._' target='_blank'><FaInstagram/></a>
            
           </div>
-          <div className="rounded-full h-[50px] bg-gray-900 w-[50px] mt-[15px] text-white text-[20px] flex items-center justify-center">
+          <div className="rounded-full h-[50px] bg-gray-900 w-[50px] mt-[15px] text-white text-[20px] flex items-center justify-center hover:text-yellow-500 hover:scale-110 transition-transform ">
             <a href='https://www.linkedin.com/in/tushar-gurjar-b4a381368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='_blank'><FaLinkedinIn/></a>
            
           </div>
@@ -72,12 +72,12 @@ function App() {
 
           </div>
         <nav className="flex flex-col  mt-8 space-y-9">
-          <Link to='home' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] hover:text-white cursor-pointer'>HOME</Link>
-          <Link to='about' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] hover:text-white cursor-pointer'>ABOUT</Link>
-          <Link to='resume' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] hover:text-white cursor-pointer'>RESUME</Link>
-          <Link to='works' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] hover:text-white cursor-pointer'>WORKS</Link>
+          <Link to='home' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] hover:text-blue-500 cursor-pointer'>HOME</Link>
+          <Link to='about' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] hover:text-blue-500 cursor-pointer'>ABOUT</Link>
+          <Link to='resume' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] hover:text-blue-500 cursor-pointer'>RESUME</Link>
+          <Link to='works' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] hover:text-blue-500 cursor-pointer'>WORKS</Link>
           <Link to='services' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] cursor-pointer hover:text-blue-500 transition-colors'>SERVICES</Link>
-          <Link to='contact' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] hover:text-white cursor-pointer'>CONTACT</Link>
+          <Link to='contact' smooth={true} duration={500} containerId='main-scroll' className='text-white/80 flex items-center gap-2 text-[20px] hover:text-blue-500 cursor-pointer'>CONTACT</Link>
         </nav>
         </div>
 
@@ -308,9 +308,14 @@ function App() {
 
         <div className="flex py-12">
 
-        <div className="w-1/2 relative bg-black/60 h-[17rem]">
-        <div className="bg-black/20 h-full w-full z-30 absolute top-3 left-3 hidden"></div>
-        <a href='https://theme-change-gaming-website.vercel.app/'><img src='/poject1.png' className='relative top-3 left-3 h-[17rem] z-20'></img></a>
+        <div className="w-1/2 relative bg-black/50 h-[17rem]">
+        <div className="h-full w-full bg-black/80 absolute top-3 left-3 z-50 opacity-0 hover:opacity-100 flex justify-center items-center text-white text-[35px] gap-2.5">
+        <div className="bg-[#149ddd] text-white absolute text-[15px] top-0 left-0 px-2 m-4">Web 1</div>
+        <div className=" hover:text-[#149ddd]"><a href='https://theme-change-gaming-website.vercel.app/' target='_blank'><FaLink/></a>
+        </div>
+         
+        </div>
+        <img src='/poject1.png' className=' h-[17rem] z-40 absolute top-3 left-3 border-[1px]'></img>
         
         </div>
 
@@ -336,16 +341,30 @@ function App() {
         </div>
         </div>
 
-        <div className="w-1/2 bg-black/40 h-[17rem]">
-        <a href='https://dewi-fawn.vercel.app/'><img src='/dewi.png' className='relative top-3 right-3 h-[17rem]'></img></a>
+        <div className="w-1/2 relative bg-black/50 h-[17rem]">
+        <div className="h-full w-full bg-black/80 absolute top-3 right-3 z-50 opacity-0 hover:opacity-100 flex justify-center items-center text-white text-[35px] gap-2.5">
+        <div className="bg-[#149ddd] text-white absolute text-[15px] top-0 left-0 px-2 m-4">Web 2</div>
+        <div className=" hover:text-[#149ddd]"><a href='https://dewi-fawn.vercel.app' target='_blank'><FaLink/></a>
+        </div>
+         
+        </div>
+        <img src='/dewi.png' className=' h-[17rem] z-40 absolute top-3 right-3 border-[1px]'></img>
+        
         </div>
           
         </div>
 
         <div className="flex py-12">
 
-        <div className="w-1/2 bg-black/40 h-[17rem]">
-        <a href='https://coming-soon-page-9xc80nq1q-tushars-projects-2794de62.vercel.app//'><img src='/coming-soon.png' className='relative top-3 left-3 h-[17rem]'></img></a>
+        <div className="w-1/2 relative bg-black/50 h-[17rem]">
+        <div className="h-full w-full bg-black/80 absolute top-3 left-3 z-50 opacity-0 hover:opacity-100 flex justify-center items-center text-white text-[35px] gap-2.5">
+        <div className="bg-[#149ddd] text-white absolute text-[15px] top-0 left-0 px-2 m-4">Web 3</div>
+        <div className=" hover:text-[#149ddd]"><a href='https://coming-soon-page-9xc80nq1q-tushars-projects-2794de62.vercel.app' target='_blank'><FaLink/></a>
+        </div>
+         
+        </div>
+        <img src='/coming-soon.png' className=' h-[17rem] z-40 absolute top-3 left-3 border-[1px]'></img>
+        
         </div>
 
         <div className="w-1/2 pl-5 flex flex-col justify-center">
@@ -359,13 +378,13 @@ function App() {
 
         </div>
 
-      <div className="text-3xl font-bold flex items-center justify-center mt-10">
-        More: <a href='https://github.com/tushaar3439' target='_blank'><FaGithub/></a> 
+      <div className="text-3xl font-bold flex items-center justify-center mt-10 gap-2">
+        More: <a href='https://github.com/tushaar3439' target='_blank' className='hover:scale-120 transition-transform'><FaGithub/></a> 
       </div>
 
         </div>
       </Element>
-      <Element name="services" className="h-screen ">
+      <Element name="services" className="h-[120vh] ">
    
         <div className="border-b-blue-400 border-white text-[30px] inline-block border-4 pb-2.5 font-bold mb-9 text-black mx-3">
           Services
@@ -376,11 +395,11 @@ function App() {
         As a frontend developer, I craft modern, responsive, and user-friendly interfaces that not only look stunning but also perform flawlessly. From design to deployment, I focus on creating digital experiences that are fast, accessible, and engaging.
         </div>
 
-        <div className="justify-evenly grid grid-cols-3 gap-4 bg-blue-200 px-3 ">
+        <div className="justify-evenly grid grid-cols-3 gap-4 px-3 ">
 
-          <div className="flex gap-3 my-6">
+          <div className="flex gap-3 my-6 hover:bg-blue-200 p-3 rounded-md shadow-md shadow-gray-500/50 transition-colors">
             <div className="mt-2">
-              <div className="rounded-full h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center"><HiMiniDevicePhoneMobile/></div>
+              <div className=" h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center border-blue-500 border-[2px] p-3 rounded-md shadow-md shadow-gray-500/50 transition-colors"><HiMiniDevicePhoneMobile/></div>
               </div>
             <div className="">
               <div className="text-[20px] font-bold mb-2">Responsive Design </div>
@@ -388,9 +407,9 @@ function App() {
             </div>
           </div>
 
-          <div className="flex gap-3 my-6">
+          <div className="flex gap-3 my-6 hover:bg-blue-200 p-3 rounded-md shadow-md shadow-gray-500/50 transition-colors">
             <div className="mt-2">
-              <div className="rounded-full h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center"><PiFilmSlate/></div>
+              <div className="h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center border-blue-500 border-[2px] group p-3 rounded-md shadow-md shadow-gray-500/50 transition-colors"><PiFilmSlate/></div>
               </div>
             <div className="">
               <div className="text-[20px] font-bold mb-2">Interactive Animations </div>
@@ -398,9 +417,9 @@ function App() {
             </div>
           </div>
 
-          <div className="flex gap-3 my-6">
+          <div className="flex gap-3 my-6 hover:bg-blue-200 p-3 rounded-md shadow-md shadow-gray-500/50 transition-colors">
             <div className="mt-2">
-              <div className="rounded-full h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center"><HiOutlineDesktopComputer/></div>
+              <div className="h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center border-blue-500 border-[2px] p-3 rounded-md shadow-md shadow-gray-500/50 transition-colors"><HiOutlineDesktopComputer/></div>
               </div>
             <div className="">
               <div className="text-[20px] font-bold mb-2">UI/UX Implementation</div>
@@ -409,9 +428,9 @@ function App() {
             </div>
           </div>
 
-          <div className="flex gap-3 my-6">
+          <div className="flex gap-3 my-6 hover:bg-blue-200 p-3 rounded-md shadow-md shadow-gray-500/50 transition-colors">
             <div className="mt-2">
-              <div className="rounded-full h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center"><FaLaptopCode/></div>
+              <div className="h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center border-blue-500 border-[2px] p-3 rounded-md shadow-md shadow-gray-500/50 transition-colors"><FaLaptopCode/></div>
               </div>
             <div className="">
               <div className="text-[20px] font-bold mb-2">Custom Website Development</div>
@@ -420,9 +439,9 @@ function App() {
             </div>
           </div>
 
-          <div className="flex gap-3 my-6">
+          <div className="flex gap-3 my-6 hover:bg-blue-200 p-3 rounded-md shadow-md shadow-gray-500/50 transition-colors">
             <div className="mt-2">
-              <div className="rounded-full h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center"><MdDesignServices/></div>
+              <div className="h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center border-blue-500 border-[2px] p-3 rounded-md shadow-md shadow-gray-500/50 transition-colors"><MdDesignServices/></div>
               </div>
             <div className="">
               <div className="text-[20px] font-bold mb-2">Website Redesign & Revamp</div>
@@ -431,9 +450,9 @@ function App() {
             </div>
           </div>
 
-          <div className="flex gap-3 my-6">
+          <div className="flex gap-3 my-6 hover:bg-blue-200 p-3 rounded-md shadow-md shadow-gray-500/50 transition-colors">
             <div className="mt-2">
-              <div className="rounded-full h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center"><GrHostMaintenance/></div>
+              <div className="h-[50px] w-[50px] text-white bg-blue-500 text-3xl flex justify-center items-center border-blue-500 border-[2px] p-3 rounded-md shadow-md shadow-gray-500/50 transition-colors"><GrHostMaintenance/></div>
               </div>
             <div className="">
               <div className="text-[20px] font-bold mb-2">Maintenance & Support</div>
@@ -461,24 +480,24 @@ function App() {
         <div className="w-4/12">
         <div class="shadow-md shadow-gray-500/50 p-6 bg-white rounded-md">
 
-        <div className="flex items-center gap-5 mb-4">
-        <div className="rounded-full h-[50px] w-[50px] text-[25px] text-blue-400 flex justify-center items-center bg-blue-100"><a href='mailto: tuusshhar@gmail.com' target='_blank'><AiOutlineMail/></a> </div>
+        <div className="flex items-center gap-5 mb-4 group">
+        <div className="rounded-full h-[50px] w-[50px] text-[25px] text-blue-400 flex justify-center items-center bg-blue-100 group-hover:bg-blue-400 group-hover:text-white"><a href='mailto: tuusshhar@gmail.com' target='_blank'><AiOutlineMail/></a> </div>
         <div className="">
         <div className="text-2xl font-bold">Email Us</div>
         <div className="">tuusshhar@gmail.com</div>
         </div>
         </div>
 
-        <div className="flex items-center gap-5 mb-4">
-        <div className="rounded-full h-[50px] w-[50px] text-[25px] text-blue-400 flex justify-center items-center bg-blue-100"><a href='https://www.instagram.com/tushaar._' target='_blank'><FaInstagram/></a> </div>
+        <div className="flex items-center gap-5 mb-4 group">
+        <div className="rounded-full h-[50px] w-[50px] text-[25px] text-blue-400 flex justify-center items-center bg-blue-100 group-hover:bg-blue-400 group-hover:text-white"><a href='https://www.instagram.com/tushaar._' target='_blank'><FaInstagram/></a> </div>
         <div className="">
         <div className="text-2xl font-bold">Instagram Id</div>
         <div className="">tushaar._</div>
         </div>
         </div>
 
-        <div className="flex items-center gap-5 mb-4">
-        <div className="rounded-full h-[50px] w-[50px] text-[25px] text-blue-400 flex justify-center items-center bg-blue-100"><a href='https://www.linkedin.com/in/tushar-gurjar-b4a381368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ' target='_blank'><FaLinkedinIn/></a> </div>
+        <div className="flex items-center gap-5 mb-4 group">
+        <div className="rounded-full h-[50px] w-[50px] text-[25px] text-blue-400 flex justify-center items-center bg-blue-100 group-hover:bg-blue-400 group-hover:text-white"><a href='https://www.linkedin.com/in/tushar-gurjar-b4a381368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ' target='_blank'><FaLinkedinIn/></a> </div>
         <div className="">
         <div className="text-2xl font-bold">Linked In</div>
         
